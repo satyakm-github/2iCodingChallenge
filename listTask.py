@@ -8,6 +8,6 @@ def largest_digit_sum(myListOfStrings):
         digit_sum = sum(int(char) for char in s if char.isdigit())
         largest_sum = max(largest_sum, digit_sum)
         return largest_sum
-
+        
    result  = largest_digit_sum(myListOfStrings)
    print(result)
